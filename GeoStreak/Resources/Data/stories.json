@@ -1,0 +1,724 @@
+[
+  {
+    "id": "ww1-campaign",
+    "title": "The Great War",
+    "subtitle": "World War I Campaigns",
+    "description": "Follow the pivotal battles and events that shaped World War I across Europe and beyond.",
+    "theme": "crimson",
+    "iconSymbol": "pawprint",
+    "chapters": [
+      {
+        "id": "ww1-ch1",
+        "title": "The War Begins",
+        "intro": "The assassination of Archduke Franz Ferdinand sparked a chain reaction that plunged Europe into unprecedented conflict.",
+        "events": [
+          {
+            "id": "ww1-ev1",
+            "title": "Assassination of Archduke Franz Ferdinand",
+            "year": "1914",
+            "narrative": "Archduke Franz Ferdinand of Austria-Hungary was assassinated in this Balkan capital, triggering the July Crisis.",
+            "revealText": "Sarajevo's pivotal moment led to Austria-Hungary's ultimatum to Serbia and the collapse of the European alliance system.",
+            "city": "Sarajevo",
+            "country": "Bosnia and Herzegovina",
+            "countryCode": "BIH",
+            "latitude": 43.8564,
+            "longitude": 18.4131
+          },
+          {
+            "id": "ww1-ev2",
+            "title": "Austria-Hungary Declares War",
+            "year": "1914",
+            "narrative": "Austria-Hungary officially declared war on Serbia from this imperial capital, setting off a chain of mobilizations.",
+            "revealText": "Vienna's ultimatum and declaration were the formal beginning of the Great War that would consume Europe.",
+            "city": "Vienna",
+            "country": "Austria",
+            "countryCode": "AUT",
+            "latitude": 48.2082,
+            "longitude": 16.3738
+          },
+          {
+            "id": "ww1-ev3",
+            "title": "Germany Invades Belgium",
+            "year": "1914",
+            "narrative": "German forces swept through this neutral country following the Schlieffen Plan to attack France.",
+            "revealText": "Belgium's invasion triggered British entry into the war and brought the conflict west of the Rhine.",
+            "city": "Brussels",
+            "country": "Belgium",
+            "countryCode": "BEL",
+            "latitude": 50.8503,
+            "longitude": 4.3517
+          }
+        ]
+      },
+      {
+        "id": "ww1-ch2",
+        "title": "Trench Warfare",
+        "intro": "The war became a grinding stalemate of trenches, artillery, and horrific casualties across the Western Front.",
+        "events": [
+          {
+            "id": "ww1-ev4",
+            "title": "Battle of the Somme",
+            "year": "1916",
+            "narrative": "This northern French region witnessed one of the deadliest battles in human history, with over 1 million casualties.",
+            "revealText": "The Somme offensive exemplified the futility of trench warfare and the devastating cost of industrial combat.",
+            "city": "Albert",
+            "country": "France",
+            "countryCode": "FRA",
+            "latitude": 50.0053,
+            "longitude": 2.6561
+          },
+          {
+            "id": "ww1-ev5",
+            "title": "Verdun Fortress",
+            "year": "1916",
+            "narrative": "The French defended this heavily fortified region in a ten-month struggle against the German offensive.",
+            "revealText": "Verdun became a symbol of French resistance and determination despite enormous loss of life on both sides.",
+            "city": "Verdun",
+            "country": "France",
+            "countryCode": "FRA",
+            "latitude": 49.1603,
+            "longitude": 5.3908
+          },
+          {
+            "id": "ww1-ev6",
+            "title": "Battle of Passchendaele",
+            "year": "1917",
+            "narrative": "Canadian and British forces fought through mud and artillery in Belgium to capture this village.",
+            "revealText": "Passchendaele's capture cost 325,000 casualties—demonstrating the Eastern Front's brutal attritional warfare.",
+            "city": "Passchendaele",
+            "country": "Belgium",
+            "countryCode": "BEL",
+            "latitude": 50.8942,
+            "longitude": 2.9922
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ww2-campaign",
+    "title": "World War II",
+    "subtitle": "Axis vs. Allies",
+    "description": "Experience the defining battles and turning points of humanity's deadliest conflict.",
+    "theme": "sapphire",
+    "iconSymbol": "flame.circle.fill",
+    "chapters": [
+      {
+        "id": "ww2-ch1",
+        "title": "Nazi Expansion",
+        "intro": "Hitler's Germany began a campaign of aggressive expansion across Europe, overrunning nation after nation.",
+        "events": [
+          {
+            "id": "ww2-ev1",
+            "title": "Invasion of Poland",
+            "year": "1939",
+            "narrative": "German forces blitzkrieg through Poland from the west while Soviet forces invade from the east.",
+            "revealText": "Warsaw's fall marked the start of WWII and demonstrated the destructive power of mechanized warfare.",
+            "city": "Warsaw",
+            "country": "Poland",
+            "countryCode": "POL",
+            "latitude": 52.2297,
+            "longitude": 21.0122
+          },
+          {
+            "id": "ww2-ev2",
+            "title": "Fall of France",
+            "year": "1940",
+            "narrative": "German forces defeated the French army and occupied this nation in a stunning six-week campaign.",
+            "revealText": "Paris's fall shocked the world and showed the Wehrmacht's superior tactics and mobile warfare strategy.",
+            "city": "Paris",
+            "country": "France",
+            "countryCode": "FRA",
+            "latitude": 48.8566,
+            "longitude": 2.3522
+          },
+          {
+            "id": "ww2-ev3",
+            "title": "Battle of Britain",
+            "year": "1940",
+            "narrative": "RAF pilots defended this island nation against the Luftwaffe's aerial assault in the first major battle fought entirely by air forces.",
+            "revealText": "London survived the Blitz, and German invasion plans were abandoned, proving Britain could stand alone.",
+            "city": "London",
+            "country": "United Kingdom",
+            "countryCode": "GBR",
+            "latitude": 51.5074,
+            "longitude": -0.1278
+          }
+        ]
+      },
+      {
+        "id": "ww2-ch2",
+        "title": "The Eastern Front",
+        "intro": "Germany invaded the Soviet Union in the largest military operation in history, resulting in titanic battles.",
+        "events": [
+          {
+            "id": "ww2-ev4",
+            "title": "Operation Barbarossa",
+            "year": "1941",
+            "narrative": "Three million German troops invaded the Soviet Union, advancing deep into Russia from this border city.",
+            "revealText": "Minsk fell quickly but the campaign would bog down, consuming millions of soldiers in brutal fighting.",
+            "city": "Minsk",
+            "country": "Belarus",
+            "countryCode": "BLR",
+            "latitude": 53.9045,
+            "longitude": 27.5615
+          },
+          {
+            "id": "ww2-ev5",
+            "title": "Siege of Leningrad",
+            "year": "1941-1944",
+            "narrative": "German forces encircled this great city for 900 days, starving civilians while the Red Army held the line.",
+            "revealText": "Over 1 million perished but Leningrad never fell, becoming a symbol of Soviet defiance and resilience.",
+            "city": "Saint Petersburg",
+            "country": "Russia",
+            "countryCode": "RUS",
+            "latitude": 59.9311,
+            "longitude": 30.3609
+          },
+          {
+            "id": "ww2-ev6",
+            "title": "Battle of Stalingrad",
+            "year": "1942-1943",
+            "narrative": "Soviet and German forces fought house-to-house in this industrial city in the war's bloodiest battle.",
+            "revealText": "Soviet victory at Stalingrad turned the tide on the Eastern Front and marked the beginning of Germany's defeat.",
+            "city": "Volgograd",
+            "country": "Russia",
+            "countryCode": "RUS",
+            "latitude": 48.7086,
+            "longitude": 44.5648
+          }
+        ]
+      },
+      {
+        "id": "ww2-ch3",
+        "title": "Pacific War",
+        "intro": "Japan's expansion in Asia and the Pacific brought the United States into global conflict.",
+        "events": [
+          {
+            "id": "ww2-ev7",
+            "title": "Attack on Pearl Harbor",
+            "year": "1941",
+            "narrative": "Japan launched a surprise naval assault on the U.S. naval base, bringing America into World War II.",
+            "revealText": "Pearl Harbor's destruction galvanized American resolve and turned the tide of the war in the Pacific.",
+            "city": "Honolulu",
+            "country": "United States",
+            "countryCode": "USA",
+            "latitude": 21.3099,
+            "longitude": -157.8581
+          },
+          {
+            "id": "ww2-ev8",
+            "title": "Battle of Midway",
+            "year": "1942",
+            "narrative": "The U.S. Navy sank four Japanese aircraft carriers in this crucial naval engagement in the Pacific.",
+            "revealText": "Midway's victory reversed Japanese momentum and gave America the initiative in the Pacific War.",
+            "city": "Midway Atoll",
+            "country": "United States",
+            "countryCode": "USA",
+            "latitude": 28.2069,
+            "longitude": -177.3769
+          },
+          {
+            "id": "ww2-ev9",
+            "title": "Atomic Bombing",
+            "year": "1945",
+            "narrative": "The U.S. dropped atomic bombs on these cities, ending the Pacific War but introducing nuclear devastation to warfare.",
+            "revealText": "Hiroshima and Nagasaki's destruction killed over 200,000 people and ushered in the nuclear age.",
+            "city": "Hiroshima",
+            "country": "Japan",
+            "countryCode": "JPN",
+            "latitude": 34.3853,
+            "longitude": 132.4553
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "attila-campaign",
+    "title": "The Hunnic Invasions",
+    "subtitle": "Attila's Path of Conquest",
+    "description": "Follow Attila the Hun's relentless advance across Europe and the clash with the Roman Empire.",
+    "theme": "amber",
+    "iconSymbol": "tornado",
+    "chapters": [
+      {
+        "id": "attila-ch1",
+        "title": "Rise of a Warlord",
+        "intro": "From the steppes of Central Asia, Attila unified the Hunnic tribes and turned them into a war machine.",
+        "events": [
+          {
+            "id": "attila-ev1",
+            "title": "Hunnic Empire Unified",
+            "year": "434",
+            "narrative": "Attila inherited rulership of the Huns from this location on the steppes and began unifying the tribes.",
+            "revealText": "The heart of Hunnic power lay in the Central Asian steppes where mounted archers trained and bred warhorses.",
+            "city": "Ulan Bator",
+            "country": "Mongolia",
+            "countryCode": "MNG",
+            "latitude": 47.9024,
+            "longitude": 106.9056
+          },
+          {
+            "id": "attila-ev2",
+            "title": "First Invasion of the Eastern Roman Empire",
+            "year": "441",
+            "narrative": "Hunnic forces crossed the Danube and invaded Byzantine territory, demanding tribute and ransom from this city.",
+            "revealText": "Constantinople paid ransom to the Huns, establishing a pattern of extortion that would plague the empire.",
+            "city": "Istanbul",
+            "country": "Türkiye",
+            "countryCode": "TUR",
+            "latitude": 41.0082,
+            "longitude": 28.9784
+          }
+        ]
+      },
+      {
+        "id": "attila-ch2",
+        "title": "Western Invasion",
+        "intro": "Attila turned westward, bringing fire and devastation to the Roman provinces of Gaul and beyond.",
+        "events": [
+          {
+            "id": "attila-ev3",
+            "title": "Invasion of Gaul",
+            "year": "451",
+            "narrative": "Hunnic armies swept through the Roman province of Gaul, sacking cities and terrifying the population.",
+            "revealText": "Paris itself was threatened, but Attila bypassed it to continue his rampage through the countryside.",
+            "city": "Orleans",
+            "country": "France",
+            "countryCode": "FRA",
+            "latitude": 47.9029,
+            "longitude": 1.9094
+          },
+          {
+            "id": "attila-ev4",
+            "title": "Battle of the Catalaunian Plains",
+            "year": "451",
+            "narrative": "Roman and Visigothic forces united to face Attila in this crucial battle that checked his westward advance.",
+            "revealText": "Though not a decisive victory, the Catalaunian Plains slowed Hunnic momentum and forced strategic retreat.",
+            "city": "Troyes",
+            "country": "France",
+            "countryCode": "FRA",
+            "latitude": 48.2974,
+            "longitude": 4.0747
+          },
+          {
+            "id": "attila-ev5",
+            "title": "Invasion of Italy",
+            "year": "452",
+            "narrative": "Attila turned south and invaded the Italian peninsula, sacking cities and threatening the heart of the Western Empire.",
+            "revealText": "Milan fell to the Huns, demonstrating that even the empire's heartland was vulnerable to Hunnic invasion.",
+            "city": "Milan",
+            "country": "Italy",
+            "countryCode": "ITA",
+            "latitude": 45.4642,
+            "longitude": 9.1900
+          }
+        ]
+      },
+      {
+        "id": "attila-ch3",
+        "title": "The Decline",
+        "intro": "Attila's sudden death and the succession disputes that followed marked the end of Hunnic dominance.",
+        "events": [
+          {
+            "id": "attila-ev6",
+            "title": "Death of Attila",
+            "year": "453",
+            "narrative": "Attila died on his wedding night at this location, possibly from a nosebleed or an assassin's blade.",
+            "revealText": "The great warlord's death threw the Hunnic empire into chaos, and the empire rapidly fragmented.",
+            "city": "Budapest",
+            "country": "Hungary",
+            "countryCode": "HUN",
+            "latitude": 47.4979,
+            "longitude": 19.0402
+          },
+          {
+            "id": "attila-ev7",
+            "title": "Collapse of Hunnic Power",
+            "year": "454",
+            "narrative": "Without Attila's leadership, the Hunnic confederation splintered as tribes pursued their own interests.",
+            "revealText": "The sons of Attila fought for control, and Germanic tribes rebelled, ending the age of Hunnic dominance.",
+            "city": "Vienna",
+            "country": "Austria",
+            "countryCode": "AUT",
+            "latitude": 48.2082,
+            "longitude": 16.3738
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rome-campaign",
+    "title": "The Roman Empire",
+    "subtitle": "Rise and Expansion",
+    "description": "Trace the legendary military campaigns that built the greatest empire of the ancient world.",
+    "theme": "emerald",
+    "iconSymbol": "building.2.crop.circle.fill",
+    "chapters": [
+      {
+        "id": "rome-ch1",
+        "title": "The Republic Ascendant",
+        "intro": "Rome's legions conquered the Mediterranean basin, establishing the foundation of future imperial greatness.",
+        "events": [
+          {
+            "id": "rome-ev1",
+            "title": "Battle of Cannae",
+            "year": "-216",
+            "narrative": "Hannibal's Carthaginian forces defeated a larger Roman army in southern Italy through brilliant double envelopment.",
+            "revealText": "Despite the massive Roman defeat, Rome's resilience and resources eventually wore down Carthage.",
+            "city": "Barletta",
+            "country": "Italy",
+            "countryCode": "ITA",
+            "latitude": 41.3156,
+            "longitude": 16.2836
+          },
+          {
+            "id": "rome-ev2",
+            "title": "Conquest of Egypt",
+            "year": "-30",
+            "narrative": "Octavian defeated Mark Antony and Cleopatra, bringing this ancient kingdom under Roman control.",
+            "revealText": "Egypt's wealth and grain supply made Rome the undisputed master of the Mediterranean world.",
+            "city": "Alexandria",
+            "country": "Egypt",
+            "countryCode": "EGY",
+            "latitude": 31.1656,
+            "longitude": 29.9222
+          }
+        ]
+      },
+      {
+        "id": "rome-ch2",
+        "title": "Imperial Expansion",
+        "intro": "The emperors pushed Rome's borders to their greatest extent, from Britain to Mesopotamia.",
+        "events": [
+          {
+            "id": "rome-ev3",
+            "title": "Conquest of Britain",
+            "year": "43",
+            "narrative": "Emperor Claudius ordered the invasion of Britain, beginning a century-long conquest of the island.",
+            "revealText": "Roman legions brought civilization to Britain, establishing cities, roads, and military forts.",
+            "city": "London",
+            "country": "United Kingdom",
+            "countryCode": "GBR",
+            "latitude": 51.5074,
+            "longitude": -0.1278
+          },
+          {
+            "id": "rome-ev4",
+            "title": "Trajan's Dacia Campaign",
+            "year": "106",
+            "narrative": "Emperor Trajan conquered the rich kingdom of Dacia, bringing Roman power to its maximum territorial extent.",
+            "revealText": "Dacia's conquest added vast territories and mineral wealth to the empire, extending Rome to the Black Sea.",
+            "city": "Cluj-Napoca",
+            "country": "Romania",
+            "countryCode": "ROU",
+            "latitude": 46.7712,
+            "longitude": 23.6236
+          },
+          {
+            "id": "rome-ev5",
+            "title": "Parthian Wars",
+            "year": "116",
+            "narrative": "Trajan invaded Mesopotamia and reached the Persian Gulf, Rome's greatest extension eastward.",
+            "revealText": "Though Trajan took Ctesiphon, Rome could not hold such distant territory and soon withdrew.",
+            "city": "Baghdad",
+            "country": "Iraq",
+            "countryCode": "IRQ",
+            "latitude": 33.3128,
+            "longitude": 44.3615
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kids-character-homes",
+    "title": "Character Home Quest",
+    "subtitle": "Homes of Beloved Kids' Characters",
+    "description": "Travel the globe to visit real-world places linked to famous children's characters and stories.",
+    "theme": "violet",
+    "iconSymbol": "house.fill",
+    "chapters": [
+      {
+        "id": "kids-home-ch1",
+        "title": "Neighborhood Adventures",
+        "intro": "Start in cities and storybook towns connected to familiar characters from TV and children's books.",
+        "events": [
+          {
+            "id": "kids-home-ev1",
+            "title": "Bluey's Brisbane Backyard",
+            "year": "Modern",
+            "narrative": "This Australian city inspired the Heeler family's world in Bluey.",
+            "revealText": "Bluey is set in Brisbane, with local parks, rivers, and neighborhoods shaping many episodes.",
+            "city": "Brisbane",
+            "country": "Australia",
+            "countryCode": "AUS",
+            "latitude": -27.4698,
+            "longitude": 153.0251
+          },
+          {
+            "id": "kids-home-ev2",
+            "title": "Peppa's London Day Trip",
+            "year": "Modern",
+            "narrative": "Peppa Pig adventures often reference this major UK city and its landmarks.",
+            "revealText": "London appears in many Peppa stories, including visits to famous city attractions.",
+            "city": "London",
+            "country": "United Kingdom",
+            "countryCode": "GBR",
+            "latitude": 51.5074,
+            "longitude": -0.1278
+          },
+          {
+            "id": "kids-home-ev3",
+            "title": "Paddington's Station Arrival",
+            "year": "1958",
+            "narrative": "A young bear from Peru begins his UK journey at this famous London station.",
+            "revealText": "Paddington Bear's iconic arrival gave the station his name in children's literature.",
+            "city": "London",
+            "country": "United Kingdom",
+            "countryCode": "GBR",
+            "latitude": 51.5154,
+            "longitude": -0.1755
+          },
+          {
+            "id": "kids-home-ev4",
+            "title": "Peter Rabbit's Lake District",
+            "year": "1902",
+            "narrative": "Beatrix Potter's countryside tales were inspired by this scenic region in northwest England.",
+            "revealText": "The Lake District's farms and hills helped shape the world of Peter Rabbit.",
+            "city": "Ambleside",
+            "country": "United Kingdom",
+            "countryCode": "GBR",
+            "latitude": 54.4314,
+            "longitude": -2.9615
+          },
+          {
+            "id": "kids-home-ev5",
+            "title": "Winnie-the-Pooh's Hundred Acre Wood",
+            "year": "1926",
+            "narrative": "This forest in southern England inspired A. A. Milne's beloved Pooh stories.",
+            "revealText": "Ashdown Forest is the real-world landscape behind the Hundred Acre Wood.",
+            "city": "Forest Row",
+            "country": "United Kingdom",
+            "countryCode": "GBR",
+            "latitude": 51.0968,
+            "longitude": 0.0404
+          }
+        ]
+      },
+      {
+        "id": "kids-home-ch2",
+        "title": "Storybook World Tour",
+        "intro": "Continue across Europe and beyond to places tied to classic children's tales.",
+        "events": [
+          {
+            "id": "kids-home-ev6",
+            "title": "Heidi's Alpine Village",
+            "year": "1881",
+            "narrative": "Heidi's mountain world is associated with this Swiss village near the Alps.",
+            "revealText": "Maienfeld's alpine setting is widely linked to the timeless Heidi story.",
+            "city": "Maienfeld",
+            "country": "Switzerland",
+            "countryCode": "CHE",
+            "latitude": 47.0040,
+            "longitude": 9.5324
+          },
+          {
+            "id": "kids-home-ev7",
+            "title": "Pippi Longstocking's Island Town",
+            "year": "1945",
+            "narrative": "Swedish adaptations of Pippi Longstocking were famously filmed around this Baltic town.",
+            "revealText": "Visby on Gotland became a recognizable backdrop for Pippi's adventures.",
+            "city": "Visby",
+            "country": "Sweden",
+            "countryCode": "SWE",
+            "latitude": 57.6348,
+            "longitude": 18.2948
+          },
+          {
+            "id": "kids-home-ev8",
+            "title": "Moomin Seaside Inspiration",
+            "year": "1945",
+            "narrative": "The cozy Moomin world draws from Nordic islands and coastal life near this Finnish town.",
+            "revealText": "Naantali celebrates Moomin stories and reflects their gentle maritime atmosphere.",
+            "city": "Naantali",
+            "country": "Finland",
+            "countryCode": "FIN",
+            "latitude": 60.4660,
+            "longitude": 22.0243
+          },
+          {
+            "id": "kids-home-ev9",
+            "title": "Pinocchio's Tuscany",
+            "year": "1883",
+            "narrative": "Carlo Collodi's Pinocchio tale is rooted in this region of central Italy.",
+            "revealText": "Florence and the surrounding Tuscan landscapes shaped the world of Pinocchio.",
+            "city": "Florence",
+            "country": "Italy",
+            "countryCode": "ITA",
+            "latitude": 43.7696,
+            "longitude": 11.2558
+          },
+          {
+            "id": "kids-home-ev10",
+            "title": "The Jungle Book's Indian Setting",
+            "year": "1894",
+            "narrative": "Kipling's jungle stories are associated with forests of central India near this city.",
+            "revealText": "The Jungle Book is strongly linked to central Indian wildlife landscapes around Madhya Pradesh.",
+            "city": "Jabalpur",
+            "country": "India",
+            "countryCode": "IND",
+            "latitude": 23.1815,
+            "longitude": 79.9864
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "disney-location-journey",
+    "title": "Disney Location Journey",
+    "subtitle": "Movie-Inspired Places Around the World",
+    "description": "Explore real-world locations that inspired settings in Disney and Pixar favorites.",
+    "theme": "amber",
+    "iconSymbol": "sparkles",
+    "chapters": [
+      {
+        "id": "disney-ch1",
+        "title": "Oceans and Wild Lands",
+        "intro": "Begin with reefs, islands, and savannas that inspired unforgettable movie worlds.",
+        "events": [
+          {
+            "id": "disney-ev1",
+            "title": "Finding Nemo's Great Barrier Reef",
+            "year": "2003",
+            "narrative": "Marlin's ocean journey begins in waters inspired by this famous reef system.",
+            "revealText": "The Great Barrier Reef near Queensland inspired the colorful marine world of Finding Nemo.",
+            "city": "Cairns",
+            "country": "Australia",
+            "countryCode": "AUS",
+            "latitude": -16.9186,
+            "longitude": 145.7781
+          },
+          {
+            "id": "disney-ev2",
+            "title": "The Lion King's Pride Lands",
+            "year": "1994",
+            "narrative": "This East African ecosystem inspired the sweeping landscapes of the Pride Lands.",
+            "revealText": "The Serengeti's plains and wildlife informed the visual style of The Lion King.",
+            "city": "Seronera",
+            "country": "Tanzania",
+            "countryCode": "TZA",
+            "latitude": -2.4419,
+            "longitude": 34.8237
+          },
+          {
+            "id": "disney-ev3",
+            "title": "Moana's Pacific Voyaging World",
+            "year": "2016",
+            "narrative": "Moana's island culture and navigation traditions draw from this South Pacific nation.",
+            "revealText": "Samoa and neighboring Pacific cultures inspired Moana's seafaring story world.",
+            "city": "Apia",
+            "country": "Samoa",
+            "countryCode": "WSM",
+            "latitude": -13.8333,
+            "longitude": -171.7667
+          },
+          {
+            "id": "disney-ev4",
+            "title": "Lilo & Stitch's Island Home",
+            "year": "2002",
+            "narrative": "This Hawaiian city reflects the coastal setting and spirit of ohana.",
+            "revealText": "Oahu's communities and beaches inspired the setting for Lilo & Stitch.",
+            "city": "Honolulu",
+            "country": "United States",
+            "countryCode": "USA",
+            "latitude": 21.3069,
+            "longitude": -157.8583
+          },
+          {
+            "id": "disney-ev5",
+            "title": "Up's Paradise Falls Inspiration",
+            "year": "2009",
+            "narrative": "The dramatic tabletop mountains and waterfalls in this region inspired Paradise Falls.",
+            "revealText": "Venezuela's tepui landscapes in Canaima National Park influenced the world of Up.",
+            "city": "Santa Elena de Uairen",
+            "country": "Venezuela",
+            "countryCode": "VEN",
+            "latitude": 4.6023,
+            "longitude": -61.1100
+          }
+        ]
+      },
+      {
+        "id": "disney-ch2",
+        "title": "Cities, Castles, and Culture",
+        "intro": "Finish with movie-inspired cities and regions rich in architecture, tradition, and history.",
+        "events": [
+          {
+            "id": "disney-ev6",
+            "title": "Frozen's Fjord Kingdom",
+            "year": "2013",
+            "narrative": "Arendelle's look drew heavily from this Norwegian harbor city and nearby fjords.",
+            "revealText": "Bergen's architecture and Norway's dramatic coastlines inspired Frozen's kingdom.",
+            "city": "Bergen",
+            "country": "Norway",
+            "countryCode": "NOR",
+            "latitude": 60.3913,
+            "longitude": 5.3221
+          },
+          {
+            "id": "disney-ev7",
+            "title": "Ratatouille's Paris",
+            "year": "2007",
+            "narrative": "This French capital serves as the culinary and visual heart of Ratatouille.",
+            "revealText": "Parisian streets, rooftops, and kitchens define the charm of Ratatouille.",
+            "city": "Paris",
+            "country": "France",
+            "countryCode": "FRA",
+            "latitude": 48.8566,
+            "longitude": 2.3522
+          },
+          {
+            "id": "disney-ev8",
+            "title": "Coco's Day of the Dead Setting",
+            "year": "2017",
+            "narrative": "This Mexican region inspired the family traditions and vibrant visual language of Coco.",
+            "revealText": "Oaxaca's Day of the Dead celebrations influenced Coco's color, music, and storytelling.",
+            "city": "Oaxaca",
+            "country": "Mexico",
+            "countryCode": "MEX",
+            "latitude": 17.0732,
+            "longitude": -96.7266
+          },
+          {
+            "id": "disney-ev9",
+            "title": "Encanto's Mountain Valleys",
+            "year": "2021",
+            "narrative": "Encanto's magical setting draws from Colombia's lush valleys and coffee landscapes.",
+            "revealText": "The Cocora Valley and Colombia's Andean regions inspired Encanto's visual world.",
+            "city": "Salento",
+            "country": "Colombia",
+            "countryCode": "COL",
+            "latitude": 4.6374,
+            "longitude": -75.5708
+          },
+          {
+            "id": "disney-ev10",
+            "title": "Mulan's Imperial City",
+            "year": "1998",
+            "narrative": "Mulan's imperial setting reflects architecture and history centered around this Chinese capital.",
+            "revealText": "Beijing's imperial landmarks helped inspire palace environments in Mulan.",
+            "city": "Beijing",
+            "country": "China",
+            "countryCode": "CHN",
+            "latitude": 39.9042,
+            "longitude": 116.4074
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C6A727BD85B1ADBB300F5E /* MenuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 79C2CB02FB8DC9E7C5CA6A8B /* MenuBackground.png */; };
+		08FF0DA39C5289F8FC1187BD /* WWIIBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 08B24AE5D056CE9B01E36979 /* WWIIBG.png */; };
+		10516E92717CAC0F6B089CEA /* DisneyReefDeset.png in Resources */ = {isa = PBXBuildFile; fileRef = 4895DD98F2D04073F93016D5 /* DisneyReefDeset.png */; };
+		13C2F513CB2B2B582ECAD9AE /* GeoStreakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08F0F622170CAD99841E90C /* GeoStreakApp.swift */; };
+		1A8B053A620724477D2AD598 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC7F451863E75543FD4F57 /* GameModels.swift */; };
+		25A5F134595510772C9DA7BE /* HistoryTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7400FCBD76DC915684C5A5 /* HistoryTheme.swift */; };
+		4098C3711C177DE994137397 /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B7ACDDB1E8BA83ABA31A8F /* StoryModels.swift */; };
+		478B31ACCB588906EDD9EE6D /* StoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09E1F7B63AB28C35DDDA95 /* StoryGameView.swift */; };
+		4910A83E1B6815F953823C0A /* HistoryUnmappedImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BAB54E85A8ACA7FDA6853A1C /* HistoryUnmappedImage.png */; };
+		497D2B41EE1C1FFBD83DF72F /* AtillaBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 14A6640701E43A60C7AF256C /* AtillaBG.png */; };
+		585AEA6BA3DDF84603F8A256 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00256D817D43C6CD4113900B /* GameEngine.swift */; };
+		5CEF6F9C4C64D9EFCD6BF430 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F8FAFCBBC8AD756086B6F7 /* MusicPlayer.swift */; };
+		63086902A45AD8C8C85027A1 /* challenges.json in Resources */ = {isa = PBXBuildFile; fileRef = 51B8CE1A4CBE0D561A862616 /* challenges.json */; };
+		64CEF7884F04F15EB425EA94 /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = 19F9A26A275C5E6DA0AAC5D0 /* MapLibre */; };
+		82C4E36921C5873AF7BB6E96 /* StoryChapterIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB82CF538A6136863C5E1AC /* StoryChapterIntroView.swift */; };
+		871DDC30F4B0653873E3EF71 /* CountryIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34700E97A0AF2159A097093E /* CountryIndex.swift */; };
+		9FD58350DAA7CA16352E7E5F /* GoldPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2187C9C7AC702733D0F97E45 /* GoldPin.png */; };
+		A0C309ED1F5CA4DB93D62C6F /* StoryModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA96F875711107C12E8A523E /* StoryModeView.swift */; };
+		AF9B422CEFD5B87EB0E7521A /* StoryCampaignCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166AE3560FB71D2E764C2A4A /* StoryCampaignCompleteView.swift */; };
+		B14BEEAF33986AF641CA8B89 /* StoryEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92668C9B65861398289F06CA /* StoryEngine.swift */; };
+		CFFF50441E777B0870247398 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C623D62F75EA9EC6ACCC406 /* GameView.swift */; };
+		D1E50E584D01674472D6856C /* ChallengeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CED1C2312F96AD2A4712DA6 /* ChallengeStore.swift */; };
+		D28DAA7FC1CD00DA5B375FFD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEC91DDB1443F323F7ED0B4 /* HomeView.swift */; };
+		DAAD8DACA7A84DF79C9A7E44 /* ATTRIBUTION.md in Resources */ = {isa = PBXBuildFile; fileRef = ECF5AE2A00FF7679A751B23D /* ATTRIBUTION.md */; };
+		E1E87268335C6DD0D5EBABC2 /* stories.json in Resources */ = {isa = PBXBuildFile; fileRef = 0250191B40E9DA86910C9A66 /* stories.json */; };
+		E23215966B71650A3584BFEA /* StoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6980C0F5C6AD430CD132E82D /* StoryStore.swift */; };
+		E2F6305B1E7856735DBDDB3A /* WWIBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 6588E710804BBC1B4427E773 /* WWIBG.png */; };
+		E657D1E9DA1F8C463224924C /* countries.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 4EB547660976D02D12677160 /* countries.geojson */; };
+		E88E9BAC5EC08309A1515D71 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F287818393E0077A5565B1 /* MapView.swift */; };
+		F281BD2E7657F3A8B69A0E70 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385D2650D96F6C5A9673578F /* LaunchView.swift */; };
+		F36AA05910767FA96D872983 /* Prairie Concord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11AB61FE04B0F9A4B37B141F /* Prairie Concord.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00256D817D43C6CD4113900B /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		0250191B40E9DA86910C9A66 /* stories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = stories.json; sourceTree = "<group>"; };
+		08B24AE5D056CE9B01E36979 /* WWIIBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WWIIBG.png; sourceTree = "<group>"; };
+		0CEC91DDB1443F323F7ED0B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11AB61FE04B0F9A4B37B141F /* Prairie Concord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Prairie Concord.mp3"; sourceTree = "<group>"; };
+		14A6640701E43A60C7AF256C /* AtillaBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtillaBG.png; sourceTree = "<group>"; };
+		166AE3560FB71D2E764C2A4A /* StoryCampaignCompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCampaignCompleteView.swift; sourceTree = "<group>"; };
+		16F8FAFCBBC8AD756086B6F7 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		1BB82CF538A6136863C5E1AC /* StoryChapterIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryChapterIntroView.swift; sourceTree = "<group>"; };
+		2187C9C7AC702733D0F97E45 /* GoldPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoldPin.png; sourceTree = "<group>"; };
+		21F287818393E0077A5565B1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		34700E97A0AF2159A097093E /* CountryIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryIndex.swift; sourceTree = "<group>"; };
+		385D2650D96F6C5A9673578F /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		4895DD98F2D04073F93016D5 /* DisneyReefDeset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DisneyReefDeset.png; sourceTree = "<group>"; };
+		4EB547660976D02D12677160 /* countries.geojson */ = {isa = PBXFileReference; path = countries.geojson; sourceTree = "<group>"; };
+		4ED968880F9B9A5F79FB508D /* GeoStreak.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GeoStreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F09E1F7B63AB28C35DDDA95 /* StoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryGameView.swift; sourceTree = "<group>"; };
+		51B8CE1A4CBE0D561A862616 /* challenges.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = challenges.json; sourceTree = "<group>"; };
+		5C623D62F75EA9EC6ACCC406 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5C7400FCBD76DC915684C5A5 /* HistoryTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTheme.swift; sourceTree = "<group>"; };
+		5CED1C2312F96AD2A4712DA6 /* ChallengeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeStore.swift; sourceTree = "<group>"; };
+		6588E710804BBC1B4427E773 /* WWIBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WWIBG.png; sourceTree = "<group>"; };
+		6980C0F5C6AD430CD132E82D /* StoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryStore.swift; sourceTree = "<group>"; };
+		79C2CB02FB8DC9E7C5CA6A8B /* MenuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBackground.png; sourceTree = "<group>"; };
+		92668C9B65861398289F06CA /* StoryEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryEngine.swift; sourceTree = "<group>"; };
+		AA96F875711107C12E8A523E /* StoryModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModeView.swift; sourceTree = "<group>"; };
+		B8B7ACDDB1E8BA83ABA31A8F /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		BAB54E85A8ACA7FDA6853A1C /* HistoryUnmappedImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HistoryUnmappedImage.png; sourceTree = "<group>"; };
+		D6EC7F451863E75543FD4F57 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		E08F0F622170CAD99841E90C /* GeoStreakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoStreakApp.swift; sourceTree = "<group>"; };
+		ECF5AE2A00FF7679A751B23D /* ATTRIBUTION.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ATTRIBUTION.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A1C4A6D143B0679B8222293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CEF7884F04F15EB425EA94 /* MapLibre in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552EE5E99CF7D94180F2DA0F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				11AB61FE04B0F9A4B37B141F /* Prairie Concord.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		58C53EBCD53F1F1442B7B6EB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				51B8CE1A4CBE0D561A862616 /* challenges.json */,
+				4EB547660976D02D12677160 /* countries.geojson */,
+				0250191B40E9DA86910C9A66 /* stories.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5A033E61ED17B3A2DF566887 = {
+			isa = PBXGroup;
+			children = (
+				CFE0288EACD257426DA7E176 /* GeoStreak */,
+				AD1F19F8FD51F2AE989E9292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EA5D7ED4C49D7CF5600B118 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECF5AE2A00FF7679A751B23D /* ATTRIBUTION.md */,
+				552EE5E99CF7D94180F2DA0F /* Audio */,
+				58C53EBCD53F1F1442B7B6EB /* Data */,
+				A728542910BD57E76A4628F4 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		861E7F25C82B4BFF231393C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C623D62F75EA9EC6ACCC406 /* GameView.swift */,
+				5C7400FCBD76DC915684C5A5 /* HistoryTheme.swift */,
+				0CEC91DDB1443F323F7ED0B4 /* HomeView.swift */,
+				385D2650D96F6C5A9673578F /* LaunchView.swift */,
+				21F287818393E0077A5565B1 /* MapView.swift */,
+				166AE3560FB71D2E764C2A4A /* StoryCampaignCompleteView.swift */,
+				1BB82CF538A6136863C5E1AC /* StoryChapterIntroView.swift */,
+				4F09E1F7B63AB28C35DDDA95 /* StoryGameView.swift */,
+				AA96F875711107C12E8A523E /* StoryModeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A728542910BD57E76A4628F4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				14A6640701E43A60C7AF256C /* AtillaBG.png */,
+				4895DD98F2D04073F93016D5 /* DisneyReefDeset.png */,
+				2187C9C7AC702733D0F97E45 /* GoldPin.png */,
+				BAB54E85A8ACA7FDA6853A1C /* HistoryUnmappedImage.png */,
+				79C2CB02FB8DC9E7C5CA6A8B /* MenuBackground.png */,
+				6588E710804BBC1B4427E773 /* WWIBG.png */,
+				08B24AE5D056CE9B01E36979 /* WWIIBG.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AD1F19F8FD51F2AE989E9292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ED968880F9B9A5F79FB508D /* GeoStreak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9C2C1B457CF3D4A83C519C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E08F0F622170CAD99841E90C /* GeoStreakApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CFE0288EACD257426DA7E176 /* GeoStreak */ = {
+			isa = PBXGroup;
+			children = (
+				CB9C2C1B457CF3D4A83C519C /* App */,
+				FA02C2808A836740554D7C80 /* Models */,
+				6EA5D7ED4C49D7CF5600B118 /* Resources */,
+				D2C099B11922CFCA7F21F9E8 /* Services */,
+				861E7F25C82B4BFF231393C7 /* Views */,
+			);
+			path = GeoStreak;
+			sourceTree = "<group>";
+		};
+		D2C099B11922CFCA7F21F9E8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5CED1C2312F96AD2A4712DA6 /* ChallengeStore.swift */,
+				34700E97A0AF2159A097093E /* CountryIndex.swift */,
+				00256D817D43C6CD4113900B /* GameEngine.swift */,
+				16F8FAFCBBC8AD756086B6F7 /* MusicPlayer.swift */,
+				92668C9B65861398289F06CA /* StoryEngine.swift */,
+				6980C0F5C6AD430CD132E82D /* StoryStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA02C2808A836740554D7C80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6EC7F451863E75543FD4F57 /* GameModels.swift */,
+				B8B7ACDDB1E8BA83ABA31A8F /* StoryModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F6D0E1C528F80FEC090CB2 /* GeoStreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC14452E637B28A60CF101C /* Build configuration list for PBXNativeTarget "GeoStreak" */;
+			buildPhases = (
+				D2F8F5D6219D7CF20327961F /* Sources */,
+				C04EEC1E3FBA3828771CF0E2 /* Resources */,
+				3A1C4A6D143B0679B8222293 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoStreak;
+			packageProductDependencies = (
+				19F9A26A275C5E6DA0AAC5D0 /* MapLibre */,
+			);
+			productName = GeoStreak;
+			productReference = 4ED968880F9B9A5F79FB508D /* GeoStreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DCBA31A0FBFD276B3BC85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D5954BEFF68D2FF8E69163E1 /* Build configuration list for PBXProject "GeoStreak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5A033E61ED17B3A2DF566887;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B4FCCED02ECA96A3E977BCFD /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AD1F19F8FD51F2AE989E9292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F6D0E1C528F80FEC090CB2 /* GeoStreak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04EEC1E3FBA3828771CF0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAD8DACA7A84DF79C9A7E44 /* ATTRIBUTION.md in Resources */,
+				497D2B41EE1C1FFBD83DF72F /* AtillaBG.png in Resources */,
+				10516E92717CAC0F6B089CEA /* DisneyReefDeset.png in Resources */,
+				9FD58350DAA7CA16352E7E5F /* GoldPin.png in Resources */,
+				4910A83E1B6815F953823C0A /* HistoryUnmappedImage.png in Resources */,
+				06C6A727BD85B1ADBB300F5E /* MenuBackground.png in Resources */,
+				F36AA05910767FA96D872983 /* Prairie Concord.mp3 in Resources */,
+				E2F6305B1E7856735DBDDB3A /* WWIBG.png in Resources */,
+				08FF0DA39C5289F8FC1187BD /* WWIIBG.png in Resources */,
+				63086902A45AD8C8C85027A1 /* challenges.json in Resources */,
+				E657D1E9DA1F8C463224924C /* countries.geojson in Resources */,
+				E1E87268335C6DD0D5EBABC2 /* stories.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2F8F5D6219D7CF20327961F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E50E584D01674472D6856C /* ChallengeStore.swift in Sources */,
+				871DDC30F4B0653873E3EF71 /* CountryIndex.swift in Sources */,
+				585AEA6BA3DDF84603F8A256 /* GameEngine.swift in Sources */,
+				1A8B053A620724477D2AD598 /* GameModels.swift in Sources */,
+				CFFF50441E777B0870247398 /* GameView.swift in Sources */,
+				13C2F513CB2B2B582ECAD9AE /* GeoStreakApp.swift in Sources */,
+				25A5F134595510772C9DA7BE /* HistoryTheme.swift in Sources */,
+				D28DAA7FC1CD00DA5B375FFD /* HomeView.swift in Sources */,
+				F281BD2E7657F3A8B69A0E70 /* LaunchView.swift in Sources */,
+				E88E9BAC5EC08309A1515D71 /* MapView.swift in Sources */,
+				5CEF6F9C4C64D9EFCD6BF430 /* MusicPlayer.swift in Sources */,
+				AF9B422CEFD5B87EB0E7521A /* StoryCampaignCompleteView.swift in Sources */,
+				82C4E36921C5873AF7BB6E96 /* StoryChapterIntroView.swift in Sources */,
+				B14BEEAF33986AF641CA8B89 /* StoryEngine.swift in Sources */,
+				478B31ACCB588906EDD9EE6D /* StoryGameView.swift in Sources */,
+				A0C309ED1F5CA4DB93D62C6F /* StoryModeView.swift in Sources */,
+				4098C3711C177DE994137397 /* StoryModels.swift in Sources */,
+				E23215966B71650A3584BFEA /* StoryStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A2D6FBC026481F44D01D439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E06D94022EDF1C144E3AA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D8262419077A7D7FAD430DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "History Unmapped";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GeoStreak;
+				PRODUCT_NAME = "History Unmapped";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F9E03F1E0C8ACE5BA6CDD795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "History Unmapped";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GeoStreak;
+				PRODUCT_NAME = "History Unmapped";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC14452E637B28A60CF101C /* Build configuration list for PBXNativeTarget "GeoStreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E03F1E0C8ACE5BA6CDD795 /* Debug */,
+				D8262419077A7D7FAD430DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5954BEFF68D2FF8E69163E1 /* Build configuration list for PBXProject "GeoStreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E06D94022EDF1C144E3AA95 /* Debug */,
+				3A2D6FBC026481F44D01D439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4FCCED02ECA96A3E977BCFD /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19F9A26A275C5E6DA0AAC5D0 /* MapLibre */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4FCCED02ECA96A3E977BCFD /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = MapLibre;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 44DCBA31A0FBFD276B3BC85D /* Project object */;
+}

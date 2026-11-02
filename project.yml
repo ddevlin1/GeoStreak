@@ -1,0 +1,42 @@
+name: GeoStreak
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "17.0"
+packages:
+  MapLibre:
+    url: https://github.com/maplibre/maplibre-gl-native-distribution
+    from: 6.28.0
+targets:
+  GeoStreak:
+    type: application
+    platform: iOS
+    sources:
+      - GeoStreak
+    resources:
+      - GeoStreak/Resources/ATTRIBUTION.md
+      - GeoStreak/Resources/Audio/Prairie Concord.mp3
+      - GeoStreak/Resources/Data/challenges.json
+      - GeoStreak/Resources/Data/countries.geojson
+      - GeoStreak/Resources/Data/stories.json
+      - GeoStreak/Resources/Images/HistoryUnmappedImage.png
+      - GeoStreak/Resources/Images/MenuBackground.png
+      - GeoStreak/Resources/Images/GoldPin.png
+      - GeoStreak/Resources/Images/AtillaBG.png
+      - GeoStreak/Resources/Images/DisneyReefDeset.png
+      - GeoStreak/Resources/Images/WWIBG.png
+      - GeoStreak/Resources/Images/WWIIBG.png
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.GeoStreak
+        PRODUCT_NAME: History Unmapped
+        INFOPLIST_KEY_CFBundleDisplayName: History Unmapped
+        SWIFT_VERSION: 5.10
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        TARGETED_DEVICE_FAMILY: "1"
+    dependencies:
+      - package: MapLibre
+        product: MapLibre
